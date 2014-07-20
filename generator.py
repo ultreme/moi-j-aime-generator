@@ -172,8 +172,8 @@ wordlists = [
 ]
 
 
-def generate(wordlists):
-    phrase = ["moi j'aime"]
+def generate_phrase(wordlists):
+    phrase = ["Moi j'aime"]
     for wordlist in wordlists:
         word = random.choice(wordlist)
         if word:
@@ -181,13 +181,15 @@ def generate(wordlists):
     return phrase
 
 
-def main(lines):
+def generate(lines):
+    res = []
     for i in xrange(lines):
-        print(' '.join(generate(wordlists)))
-
+        res.append(' '.join(generate_phrase(wordlists)))
+    return res
 
 if __name__ == "__main__":
     lines = 10
     if len(sys.argv) > 1:
         lines = int(sys.argv[1])
-    main(lines)
+    for line in generate(lines):
+        print line
