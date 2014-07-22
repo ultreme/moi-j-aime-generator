@@ -187,9 +187,13 @@ def generate(lines):
         res.append(' '.join(generate_phrase(wordlists)))
     return res
 
-if __name__ == "__main__":
+
+def main():
     lines = 10
     if len(sys.argv) > 1:
         lines = int(sys.argv[1])
     for line in generate(lines):
         print line
+
+if __name__ == "__main__":
+    main()
