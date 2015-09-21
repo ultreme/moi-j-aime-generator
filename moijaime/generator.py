@@ -60,6 +60,13 @@ wordlists = [
         "creer",
         "vagir",
         "vomir",
+        "concaténer",
+	    "diviser",
+	    "truander",
+	    "lécher",
+	    "élever",
+	    "insérer",
+	    "m'insérer",
     ], [
         "du vin",
         "du coca",
@@ -147,7 +154,9 @@ wordlists = [
         "du saucisson",
         "une vis",
         "un ecrou",
-        "un tournevis"
+        "un tournevis",
+        "un CD d'Encarta",
+	    "un poulpe"
     ], [
         "orange",
         "mechant",
@@ -165,6 +174,7 @@ wordlists = [
         "fatigue",
         "de toto",
         "du soir",
+        "ménauposée",
         None, None, None, None, None, None,
         None, None, None, None, None, None,
         None, None, None, None, None, None,
