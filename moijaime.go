@@ -1,4 +1,4 @@
-package moijaime
+package moijaime // import "ultre.me/moi-j-aime-generator"
 
 import (
 	"fmt"

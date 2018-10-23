@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/camembertaulaitcrew/moi-j-aime-generator"
+	"ultre.me/moi-j-aime-generator"
 )
 
 func main() {
